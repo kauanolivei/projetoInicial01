@@ -1,0 +1,109 @@
+/* Estilos gerais */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header {   
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+
+.container-text p {
+    color: red;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.container-text h1 {
+    text-align: center;
+    color: aqua;
+}
+.container-text h2 {
+    text-align: center;
+    color: purple;
+}
+.container-text h3 {
+    text-align: center;
+    color: pink;
+}
+.container-text h4 {
+    text-align: center;
+    color: rgb(19, 220, 16);
+}
+
+hr {
+    height: 100%;
+    width: 500px;
+    margin-left: 380px;
+    color: brown;
+}
+
+/* @media query para Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    header {
+        font-size: 40px;
+    }
+
+    .container-text p {
+        font-size: 24px;
+    }
+
+    .container-text h1, .container-text h2, .container-text h3, .container-text h4 {
+        font-size: 28px;
+    }
+
+    hr {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* @media query para Celulares (max-width: 600px) */
+@media (max-width: 600px) {
+    header {
+        font-size: 35px;
+    }
+
+    .container-text p {
+        font-size: 20px;
+    }
+
+    .container-text h1, .container-text h2, .container-text h3, .container-text h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    hr {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* @media query para Celulares menores (max-width: 480px) */
+@media (max-width: 480px) {
+    header {
+        font-size: 28px;
+    }
+
+    .container-text p {
+        font-size: 18px;
+    }
+
+    .container-text h1, .container-text h2, .container-text h3, .container-text h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    hr {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
